@@ -37,7 +37,6 @@ public class Boss_jumpAttack : MonoBehaviour
         		}
 				else
 				{
-			        nat = 0;
 				}
 	}
 	void Update()

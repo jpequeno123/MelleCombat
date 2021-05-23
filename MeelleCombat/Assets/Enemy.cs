@@ -1,3 +1,9 @@
+//o BOSS SEMPRE QUE VIRA SEM SERE POR  CAUSA DE PAREDE, OU SEJA POR PASSOU PARA O AATACARR EU VAI ESTAR A ANDAR PARA TRÁS QUANDO ESTIVER NO AR
+
+
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
