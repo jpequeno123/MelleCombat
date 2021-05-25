@@ -112,7 +112,7 @@ public class Enemy : MonoBehaviour
         if (isGrounded == false)                                                                    //certo
         {
               animator.SetBool("IsJumping", true);                                  
-              animator.SetBool("IsRunning", false);  
+              animator.SetBool("IsRunning", false);
         }
         else if (isGrounded == true && IsAttacking == false)                
         {
@@ -158,6 +158,7 @@ public class Enemy : MonoBehaviour
                 animator.SetBool("IsRunning", true);
                 Debug.Log("Modo Patrulha Pata");
             Petrol();                                           //check
+                //Debug.Log("ESTRNHo");
         }
 
       }
