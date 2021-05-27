@@ -19,7 +19,8 @@ public class Boss_Jump : StateMachineBehaviour
     //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        rb.velocity = new Vector2(0f, rb.velocity.y);
+        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
+        Debug.Log(rb.velocity.x);
     }
 
     //OnStateExit is called when a transition ends and the state machine finishes evaluating this state

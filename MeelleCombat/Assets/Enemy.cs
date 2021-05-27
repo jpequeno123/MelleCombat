@@ -164,6 +164,7 @@ public class Enemy : MonoBehaviour
       }
      
         Debug.Log(isFlipped);
+        Debug.Log(rb.velocity.x);
     }
     void FLIP_Petrol()
     {
